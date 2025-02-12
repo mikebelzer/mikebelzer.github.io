@@ -65,9 +65,9 @@ When you launch it comes up to a nice simple web page that has a table that look
 
 | Type | Name | State | Start time | Source | Endpoints | Actions |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | 
-| Project | starcolonies-messageservice | Running | 10:15:12 AM | StarColonies.MessageService.csproj |
-| Project | starcolonies-queuefeed | Running | 10:15:11 AM | StarColonies.QueueFeed.csproj | https://localhost:7015/swagger, http://localhost:5016/swagger |
-| Project | starcolonies-web-server | Running | 10:15:13 AM | StarColonies.Web.Server.csproj | https://localhost:7228/swagger, http://localhost:5125/swagger |
+| Project | starcolonies-messageservice | Running | 10:15:12 AM | StarColonies.MessageService.csproj | | |
+| Project | starcolonies-queuefeed | Running | 10:15:11 AM | StarColonies.QueueFeed.csproj | https://localhost:7015/swagger, http://localhost:5016/swagger | |
+| Project | starcolonies-web-server | Running | 10:15:13 AM | StarColonies.Web.Server.csproj | https://localhost:7228/swagger, http://localhost:5125/swagger | |
 
 From here you can do so much. There links to swagger for your apis.  Under the actions column, you can stop, restart, go to the console logs, see the structured logs, view traces and metrics.  All included. 
 Looking at the console log for the message service, it looks just like a normal console window you would expect to see with scrolling data:
