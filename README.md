@@ -62,6 +62,7 @@ Second, you get another project ServiceDefaults.  No this is great, because it a
 
 When you launch it comes up to a nice simple web page that has a table that looks something like this:
 ##### Resources
+
 | Type | Name | State | Start time | Source | Endpoints | Actions |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | 
 | Project | starcolonies-messageservice | Running | 10:15:12 AM | StarColonies.MessageService.csproj |
