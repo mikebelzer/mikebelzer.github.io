@@ -92,4 +92,4 @@ Great Information. But, wait!  There is more! Just click one of the rows, and yo
 #### The Conclusion of the matter
 Is Aspire worth it?  Does it live up to the Hype?  ***Yes!*** It was easy to set up and comes with a lot of pluses, I think the question should be why wouldn't you use it?  
 
-[test](/test.md)
+[test](/Post_2025_02_11.md)
