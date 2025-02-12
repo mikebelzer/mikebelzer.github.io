@@ -56,12 +56,13 @@ builder.AddProject<Projects.StarColonies_QueueFeed>("starcolonies-queuefeed");
 builder.AddProject<Projects.StarColonies_MessageService>("starcolonies-messageservice");
 ```
 So now all you do is run/debug the AppHost project and it will host all the other projects. So far so good.  Another great feature is that it attaches the threads for you so that your breakpoints are hit. Without that it wouldn't be as usefull for a developer.   
-> Just one Gotcha that I ran into so far. My project had a ReactJS frontend. It did not like it to launch from the AppHost.  So I had to set up a profile in the solution to launch multiple projects the AppHost and the React project.
+***Just one Gotcha that I ran into so far.*** My project had a ReactJS frontend. It did not like it to launch from the AppHost.  So I had to set up a profile in the solution to launch multiple projects the AppHost and the React project.
 
 Second, you get another project ServiceDefaults.  No this is great, because it add telemetry to your project at no extra cost. (And if it's for free, it's for me!) I mean zero effort here.
 
 When you launch it comes up to a nice simple web page that has a table that looks something like this:
-##### Resources
+
+**Resources**
 
 | Type | Name | State | Start time | Source | Endpoints | Actions |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | 
@@ -89,4 +90,6 @@ Switching over to the Structured logs for the Queue Feed API there is a table sh
 
 Great Information. But, wait!  There is more! Just click one of the rows, and you get more details.  The Hex codes under the Trace column are links to the Trace information. Where you can find further breakdown of response times.  
 #### The Conclusion of the matter
-Is Aspire worth it?  Does it live up to the Hype?  Yes! It was easy to set up and comes with a lot of pluses, why wouldn't you use it?  
+Is Aspire worth it?  Does it live up to the Hype?  ***Yes!*** It was easy to set up and comes with a lot of pluses, I think the question should be why wouldn't you use it?  
+
+[test](/test.md)
