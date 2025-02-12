@@ -1,5 +1,5 @@
 # Mike Belzer
-## Software developer, Tinkerer, Meddler, and Bit Twiddler Extraordinaire
+## Software Developer, Tinkerer, Meddler, and Bit Twiddler Extraordinaire
 
 As an accomplished IT professional with extensive experience in software development across a wide range of technologies, I have honed my skills in C#, .NET, JavaScript, TypeScript, Java, SQL Server, Oracle, React, and Angular. My career spans applications development, data application services, business intelligence, system administration, conversions, business requirements analysis, implementations, and report management.
 I also have the following qualities:
@@ -30,4 +30,4 @@ Like every techie out there, I love technology.  What's not to love? It can make
 
 ## Posts
 
-[Post 2025-02-11 .Net Aspire and me!](/Post_2025_02_11.md)
+- [Post 2025-02-11 .Net Aspire and me!](/Post_2025_02_11.md)
