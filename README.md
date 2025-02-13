@@ -32,3 +32,4 @@ Like every techie out there, I love technology.  What's not to love? It can make
 ## Posts
 
 - [Post 2025-02-11 .Net Aspire and me!](/Post_2025_02_11.md)
+- [Azure Commands](/Azure_Commands.md)
