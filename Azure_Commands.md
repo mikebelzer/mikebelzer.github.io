@@ -168,3 +168,8 @@ Run command to use:
 az deployment group create -g mygroupname --template-file .\azuredeploy.bicep 
 ```
 
+CLI get logs
+```sh
+az container logs -g mygroupname -n mycontainername123
+```
+
