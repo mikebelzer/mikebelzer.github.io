@@ -173,3 +173,15 @@ CLI get logs
 az container logs -g mygroupname -n mycontainername123
 ```
 
+**Web App**
+
+Create from Solution Directory
+```sh
+az webapp up -g myazurerg -n auniquewebappname --sku F1 --os-type windows
+```
+
+Update from Solution Directory
+```sh
+az webapp up
+```
+
