@@ -226,3 +226,12 @@ Update from Solution Directory
 ```sh
 az webapp up
 ```
+
+**Storage Account**
+
+~~~sh
+$StorageAccount = New-AzStorageAccount -ResourceGroupName myresourcegroup -Name mystorageaccount123abc -SkuName Standard_LRS -Location eastus
+New-AzStorageContainer -Name mycontainer -Context $StorageAccount.Context -Permission Blob
+Set-AzStorageBlobContent -Context $StorageAccount.Context -Container mycontainer -Blob "11/04/myfile.txt" -File .\myfile.txt
+Get-AzStorageBlob -Context $StorageAccount.Context -Container mycontainer | Select-Object -Property Name
+~~~
