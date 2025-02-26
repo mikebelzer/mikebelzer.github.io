@@ -226,3 +226,63 @@ Update from Solution Directory
 ```sh
 az webapp up
 ```
+
+**Storage Account**
+
+***PowerShell***
+
+~~~sh
+$StorageAccount = New-AzStorageAccount -ResourceGroupName myresourcegroup -Name mystorageaccount123abc -SkuName Standard_LRS -Location eastus
+New-AzStorageContainer -Name mycontainer -Context $StorageAccount.Context -Permission Blob
+~~~
+
+Upload File
+~~~sh
+Set-AzStorageBlobContent -Context $StorageAccount.Context -Container mycontainer -Blob "11/04/myfile.txt" -File .\myfile.txt
+~~~
+
+List Files
+~~~sh
+Get-AzStorageBlob -Context $StorageAccount.Context -Container mycontainer | Select-Object -Property Name
+~~~
+
+Download Files
+~~~sh
+Get-AzStorageBlobContent -Context $StorageAccount.Context -Container mycontainer -Blob "11/04/myfile.txt" -Destination ./foo.txt
+~~~
+
+Delete file
+~~~sh
+Remove-AzStorageBlob -Context $StorageAccount.Context -Container mycontainer -Blob "11/04/myfile.txt"
+~~~
+
+***CLI***
+
+
+~~~sh
+$StorageAccount = az storage account create -g myresourcegroup -n storageaccountxcv123 --location eastus --encryption-services blob | ConvertFrom-Json
+$AccountId = az ad signed-in-user show --query id -o tsv
+az role assignment create --role "Storage Blob Data Contributor" --assignee $AccountId --scope $StorageAccount.id
+az storage container create --account-name storageaccountxcv123 -ncontainermine --auth-mode login
+~~~
+
+Upload File
+~~~sh
+az storage blob upload --account-name storageaccountxcv123 --container-name containermine -n  "11/05/myfile.txt" --file .\somefile.txt
+~~~
+
+List Blobs
+~~~sh
+az storage blob list --account-name storageaccountxcv123 --container-name containermine --output table --auth-mode login
+~~~
+
+Download
+~~~sh
+az storage blob download --account-name storageaccountxcv123 --container-name containermine -n "11/05/myfile.txt" --file ./foo2.txt --auth-mode login
+~~~
+
+Delete
+~~~sh
+az storage blob delete --account-name storageaccountxcv123 --container-name containermine -n "11/05/myfile.txt" --auth-mode login
+~~~
+
