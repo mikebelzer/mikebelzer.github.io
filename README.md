@@ -34,3 +34,4 @@ Like every techie out there, I love technology.  What's not to love? It can make
 - [Post 2025-02-11 .Net Aspire and me!](/Post_2025_02_11.md)
 - [Azure Commands](/Azure_Commands.md)
 - [Post 2025-02-18 .Net Aspire to the world](Post_2025_02_18.md)
+- [Post 2025-02-25 .Net Aspire Github CI/CD](Post_2025_02_25.md)
