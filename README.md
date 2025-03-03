@@ -21,7 +21,7 @@ I also have the following qualities:
 - [Azure Commands](/Azure_Commands.md)
 - [Post 2025-02-18 .Net Aspire to the world](Post_2025_02_18.md)
 - [Post 2025-02-25 .Net Aspire Github CI/CD](Post_2025_02_25.md)
-- [Post 2025-02-25 .Net Aspire Github CI/CD](Post_2025_03_03.md)
+- [Post 2025-02-25 .Net Aspire Dynamic Reduo!](Post_2025_03_03.md)
 
 ## Quotes
 
