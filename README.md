@@ -15,6 +15,13 @@ I also have the following qualities:
 - Take the path less travelled 
     - I hear that only 2.5% of the workforce are code monkeys.
 
+## Posts
+
+- [Post 2025-02-11 .Net Aspire and me!](/Post_2025_02_11.md)
+- [Azure Commands](/Azure_Commands.md)
+- [Post 2025-02-18 .Net Aspire to the world](Post_2025_02_18.md)
+- [Post 2025-02-25 .Net Aspire Github CI/CD](Post_2025_02_25.md)
+
 ## Quotes
 
 - Me fail english?  That's unpossible! - Ralph Wiggum
@@ -29,9 +36,4 @@ Like every techie out there, I love technology.  What's not to love? It can make
 > Like everyone, I have a love/hate relationship with Tech.
 > The struggle to keep up is real.
 
-## Posts
 
-- [Post 2025-02-11 .Net Aspire and me!](/Post_2025_02_11.md)
-- [Azure Commands](/Azure_Commands.md)
-- [Post 2025-02-18 .Net Aspire to the world](Post_2025_02_18.md)
-- [Post 2025-02-25 .Net Aspire Github CI/CD](Post_2025_02_25.md)
